@@ -20,7 +20,7 @@ use Chinook_AutoIncrement;
 #7
 SELECT Title FROM Album JOIN Artist ON Artist.ArtistId = Album.ArtistID  WHERE Artist.name = 'AC/DC';
 #8
-SELECT FirstName, LastName, Email FROM Employee WHERE Country = "Brazil";
+SELECT FirstName, LastName, Email FROM Customer WHERE Country = "Brazil";
 #9
 SELECT Name FROM Playlist;
 #medium chinook questions
